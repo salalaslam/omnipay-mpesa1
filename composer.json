@@ -1,0 +1,32 @@
+{
+    "name": "salalaslam/omnipay-mpesa1",
+    "type": "library",
+    "description": "lipa na mpesa omnipay gateway",
+    "keywords": [
+        "omnipay",
+        "mpesa",
+        "lipa na mpesa"
+    ],
+    "homepage": "https://github.com/salalaslam/omnipay-mpesa1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "salal aslam",
+            "email": "salalaslam@gmail.com",
+            "homepage": "https://github.com/salalaslam"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Mpesa\\": "src"
+        }
+    },
+   "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3"
+    },
+    "minimum-stability": "-dev",
+    "prefer-stable": true
+}
